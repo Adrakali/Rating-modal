@@ -1,0 +1,148 @@
+body {
+	font-family: "Overpass", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+		sans-serif;
+	background-color: #141519;
+	color: white;
+	display: flex;
+	align-items: center;
+	padding: 2vw;
+}
+
+h1 {
+	font-weight: 600;
+}
+
+p {
+	font-size: 15px;
+	color: #868e99;
+	margin-bottom: 32px;
+	line-height: 1.4;
+}
+
+.star_wrapper {
+	height: 48px;
+	width: 48px;
+	background-color: #272e38;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.rating_modal {
+	background: rgb(33, 40, 50);
+	background: linear-gradient(
+		180deg,
+		rgba(33, 40, 50, 1) 0%,
+		rgba(25, 29, 36, 1) 50%
+	);
+	border-radius: 5%;
+	max-width: 350px;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 360px;
+}
+
+.rating_wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.rating {
+	background-color: #262e38;
+	color: #868e99;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	height: 56px;
+	width: 56px;
+	margin-bottom: 8px;
+}
+
+.rating:hover {
+	cursor: pointer;
+	background-color: #7b889a;
+	color: white;
+}
+
+.active {
+	background-color: #fd7611;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	height: 56px;
+	width: 56px;
+	margin-bottom: 8px;
+}
+
+.active:hover {
+	background-color: #fd7611;
+	color: white;
+}
+
+.submit {
+	width: 100%;
+	background-color: #fd7611;
+	color: white;
+	padding: 16 0 16 0;
+	border-radius: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 4px;
+	cursor: pointer;
+}
+
+
+
+.submit:hover {
+	color: #fd7611;
+	background-color: white;
+	-webkit-transition: background-color 30ms linear;
+	-ms-transition: background-color 30ms linear;
+	transition: background-color 30ms linear;
+}
+
+
+.thank-you_modal {
+	text-align: center;
+	background: rgb(33, 40, 50);
+	background: linear-gradient(
+		180deg,
+		rgba(33, 40, 50, 1) 0%,
+		rgba(25, 29, 36, 1) 50%
+	);
+	border-radius: 5%;
+	max-width: 350px;
+	padding: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 360px;
+}
+
+.thank-you_wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.confirmation {
+	color: #fd7611;
+	background-color: #262e38;
+	display: inline-block;
+	padding: 5 20;
+	border-radius: 100px;
+	margin-top: 40px;
+}
+
+.hide {
+	display: none;
+}
